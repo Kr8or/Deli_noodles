@@ -1,0 +1,8 @@
+
+.radial-gradient {
+    background: radial-gradient(
+        72.52% 72.52% at 63.87% 36.26%,
+        #D30606 0%,
+        #9A0404 57%,
+        #6D0303 100%)
+}
