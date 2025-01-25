@@ -9,8 +9,8 @@
 
 </head>
 <body>
-    <div class="flex items-center justify-between bg-transparent px-32 w-full h-10 text-center">
-        <ul class="flex gap-x-6 flex-1 text-sm">
+    <div class="flex absolute z-10 items-center justify-between bg-transparent px-32 w-full h-10 text-center">
+        <ul class="flex gap-x-6 flex-1 text-[13px] text-white">
             <a>Home</a>
             <a>Menu</a>
             <a>Category</a>
@@ -20,17 +20,77 @@
         <button class="bg-[#FFA51F] w-24 rounded-md text-sm h-7 font-normal">Order Now</button>
     </div>
     
-    <div class="flex bg-gradient-radial h-96 px-32 w-screen radial-gradient">
-        <div class="flex flex-col ">
-            <h1>
+    <div class="flex relative bg-gradient-radial text-white h-[450px] py-[100px] w-screen radial-gradient mb-[80px]">
+        <div class="flex flex-col w-1/2 pl-[180px]">
+            <h1 class="text-[50px] font-extrabold leading-[50px]">
                 Delicious<br/>Noodles Made <br/>Fresh
             </h1>
-            <p>
+            <p class="text-[15px] text-white py-[10px]">
                 Enjoy flavorful broths, fresh ingredients, and noodles cooked to perfection. Quick, satisfying, and made just for you.
             </p>
+            <button class="bg-[#FFA51F] w-24 rounded-md text-sm h-7 font-normal text-black">Order Now</button>
         </div>
-        <img>
+        <div class="w-1/2 ml-[-100px] mt-[-20px] h-[500px] overflow-">
+            <img src="images/tasty-asian-noodles.png" class="w-[700px] max-w-[900px] bg-contain bg-center rotate-[270deg]">
+        </div>
+    </div>
 
+    <div class="flex flex-col h-[400px] w-[70%] mx-auto items-center linear-gradient pb-[40px] rounded-[16px] z-20 mb-[80px]">
+        <h1 class="text-[50px] font-extrabold text-white">
+            Our Menu
+        </h1>
+        <div class=" flex flex-row items-center justify-between bg-white w-[90%] h-[80px] my-[5px] rounded-[8px]">
+            <h2 class=" text-[16px] w-[25%] font-semibold pl-[30px] leading-[20px]">Classic Ramen</h2>
+            <div class="w-[10%]">
+                <img src="images/cutlery.png" class="mx-auto w-[30px]">
+            </div>
+            <p class= "text-[12px] w-1/2" font-light>
+                Comfort in a bowl, with rich broths and tender toppings.
+            </p>
+            <button class="bg-[#FFA51F] w-[10%] h-[100%] rounded-tr-[8px] rounded-br-[8px] cursor-pointer">
+                <img src="images/shopping-cart.png" class="mx-auto cursor-pointer">
+            </button>
+        </div>
+        <div class=" flex flex-row items-center justify-between bg-white w-[90%] h-[80px] my-[5px] rounded-[8px]">
+            <h2 class=" text-[16px] w-[25%] font-semibold pl-[30px] leading-[20px]">Spicy Stir-Fried Noodles</h2>
+            <div class="w-[10%]">
+                <img src="images/cutlery.png" class="mx-auto w-[30px]">
+            </div>
+            <p class= "text-[12px] w-1/2" font-light>
+                A fiery kick for adventurous eaters.
+            </p>
+            <button class="bg-[#FFA51F] w-[10%] h-[100%] rounded-tr-[8px] rounded-br-[8px] cursor-pointer">
+                <img src="images/shopping-cart.png" class="mx-auto cursor-pointer">
+            </button>
+        </div>
+        <div class=" flex flex-row items-center justify-between bg-white w-[90%] h-[80px] my-[5px] rounded-[8px]">
+            <h2 class=" text-[16px] w-[25%] font-semibold pl-[30px] leading-[20px]">Vegan Delights</h2>
+            <div class="w-[10%]">
+                <img src="images/cutlery.png" class="mx-auto w-[30px]">
+            </div>
+            <p class= "text-[12px] w-1/2" font-light>
+                Plant-based perfection with all the flavor, none of the compromise.
+            </p>
+            <button class="bg-[#FFA51F] w-[10%] h-[100%] rounded-tr-[8px] rounded-br-[8px] cursor-pointer">
+                <img src="images/shopping-cart.png" class="mx-auto cursor-pointer">
+            </button>
+        </div>
+        <div class=" flex flex-row items-center justify-between bg-white w-[90%] h-[80px] my-[5px] rounded-[8px]">
+            <h2 class=" text-[16px] w-[25%] font-semibold pl-[30px] leading-[20px]">Fusion Favorites</h2>
+            <div class="w-[10%]">
+                <img src="images/cutlery.png" class="mx-auto w-[30px]">
+            </div>
+            <p class= "text-[12px] w-1/2" font-light>
+                Creative twists on noodle classics, just for you.
+            </p>
+            <button class="bg-[#FFA51F] w-[10%] h-[100%] rounded-tr-[8px] rounded-br-[8px] cursor-pointer">
+                <img src="images/shopping-cart.png" class="mx-auto cursor-pointer">
+            </button>
+        </div>
+    </div>
+
+    <div>
+        
     </div>
     
 </body>
