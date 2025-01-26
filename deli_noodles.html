@@ -9,6 +9,7 @@
 
 </head>
 <body>
+    <!-- menu -->
     <div class="flex absolute z-10 items-center justify-between bg-transparent px-32 w-full h-10 text-center">
         <ul class="flex gap-x-6 flex-1 text-[13px] text-white">
             <a>Home</a>
@@ -20,6 +21,7 @@
         <button class="bg-[#FFA51F] w-24 rounded-md text-sm h-7 font-normal text-black">Order Now</button>
     </div>
     
+    <!-- hero section -->
     <div class="flex relative bg-gradient-radial text-white h-[450px] pt-[100px]  w-[100%] radial-gradient mb-[80px]">
         <div class="flex flex-col w-1/2 pl-[180px]">
             <h1 class="text-[50px] font-extrabold leading-[50px]">
@@ -35,6 +37,7 @@
         </div>
     </div>
 
+    <!-- our menu -->
     <div class="flex flex-col h-[400px] w-[70%] mx-auto items-center linear-gradient pb-[40px] rounded-[16px] z-20 mb-[60px]">
         <h1 class="text-[50px] font-extrabold text-white">
             Our Menu
@@ -89,6 +92,7 @@
         </div>
     </div>
 
+    <!-- categories -->
     <div class="flex flex-col h-[250px] w-[90%] mx-auto items-center">
         <h1 class="text-[50px] font-extrabold text-black mb-[15px]">Categories</h1>
         <div class="flex flex-row items-center gap-[20px]">
@@ -113,24 +117,104 @@
         </div>
     </div>
 
-    <div class="flex flex-col h-[400px] w-[90%] mx-auto items-center">
+    <!-- product -->
+    <div class="flex flex-col h-[500px] w-[90%] mx-auto items-center mb-[20px]">
         <h1 class="text-[50px] font-extrabold text-black mb-[15px]">Product</h1>
-        <div class="flex flex-row items-center w-[100%] gap-[20px]">
-            <div class="flex flex-col gap-[20px] w-[23%] h-[300px] linear-gradient ">
-                <img src="images/pasta-spaghetti.png">
-                <h2 class="text-[16px] font-semibold leading-[20px] text-white">Spicy Garlic Stir-Fried Noodles</h2>
-                <div class="flex flex-row justify-between">
+        <div class="flex flex-row items-center mx-auto w-[100%] gap-[20px] justify-center">
+            <div class="flex flex-col gap-[20px] w-[20%] h-[320px] linear-gradient pl-[20px] pr-[20px] pt-[40px] rounded-[16px]">
+                <div class="ml-[20px]">
+                    <img src="images/pasta-spaghetti.png" class="w-[150px]">
+                </div>
+                <h2 class="text-[16px] font-semibold leading-[20px] text-white pt-[5px]">Spicy Garlic Stir-Fried Noodles</h2>
+                <div class="flex flex-row justify-between pt-[10px]">
                     <div class="flex flex-col">
                         <img src="images/stars.png" class="w-[100px]">
                         <p class="text-white text-[15px]">$200</p>
                     </div>
-                    <button class="bg-[#FFA51F] w-[50px] h-[50px] rounded-[25px] cursor-pointer">
+                    <button class="bg-[#FFA51F] w-[40px] h-[40px] rounded-[25px] cursor-pointer">
                         <img src="images/shopping-cart.png" class="m-auto">
                     </button>
                 </div>
             </div>
+            <div class="flex flex-col gap-[20px] w-[20%] h-[320px] linear-gradient pl-[20px] pr-[20px] pt-[40px] rounded-[16px]">
+                <div class="ml-[15px]">
+                    <img src="images/high-angle-shot.png" class="w-[150px]">
+                </div>
+                <h2 class="text-[16px] font-semibold leading-[20px] text-white pt-[5px]">Classic Tonkotsu Ramen</h2>
+                <div class="flex flex-row justify-between pt-[10px]">
+                    <div class="flex flex-col">
+                        <img src="images/stars.png" class="w-[100px]">
+                        <p class="text-white text-[15px]">$200</p>
+                    </div>
+                    <button class="bg-[#FFA51F] w-[40px] h-[40px] rounded-[25px] cursor-pointer">
+                        <img src="images/shopping-cart.png" class="m-auto">
+                    </button>
+                </div>     
+            </div>
+            <div class="flex flex-col gap-[20px] w-[20%] h-[320px] linear-gradient pl-[20px] pr-[20px] pt-[15px] rounded-[16px]">
+                <div class="ml-[20px]">
+                    <img src="images/viso-ramen.png" class="w-[145px]">
+                </div>
+                <h2 class="text-[16px] font-semibold leading-[20px] text-white pt-[0px]">Vegan Miso Ramen</h2>
+                <div class="flex flex-row justify-between pt-[10px]">
+                    <div class="flex flex-col">
+                        <img src="images/stars.png" class="w-[100px]">
+                        <p class="text-white text-[15px]">$200</p>
+                    </div>
+                    <button class="bg-[#FFA51F] w-[40px] h-[40px] rounded-[25px] cursor-pointer">
+                        <img src="images/shopping-cart.png" class="m-auto">
+                    </button>
+                </div>   
+            </div>
+            <div class="flex flex-col gap-[20px] w-[20%] h-[320px] linear-gradient pl-[20px] pr-[20px] pt-[10px] rounded-[16px]">
+                <div class="ml-[25px]">
+                    <img src="images/fried_rice.png" class=" w-[140px]">
+                </div>
+                <h2 class="text-[16px] font-semibold leading-[20px] text-white pt-[5px]">Teriyaki Chicken Rice Bowl</h2>
+                <div class="flex flex-row justify-between pt-[0px]">
+                    <div class="flex flex-col">
+                        <img src="images/stars.png" class="w-[100px]">
+                        <p class="text-white text-[15px]">$200</p>
+                    </div>
+                    <button class="bg-[#FFA51F] w-[40px] h-[40px] rounded-[25px] cursor-pointer">
+                        <img src="images/shopping-cart.png" class="m-auto">
+                    </button>
+                </div>  
+            </div>
         </div>
     </div>
+
+    <!-- about us -->
+    <div class="flex relative bg-gradient-radial text-white h-[450px] pt-[100px] pl-[200px] w-[100%] radial-gradient">
+        <div class="">
+            <img src="images/about_img.png" class="w-[430px] mt-[-80px] overflow-clip">
+        </div>
+        <div class="flex flex-col w-1/2 pt-[40px] pl-[50px]">
+            <h1 class="text-[50px] font-extrabold leading-[50px]">
+                About Us
+            </h1>
+            <p class="text-[15px] text-white py-[10px]">
+                Eat Deli Nudle, we believe that great noodles create unforgettable moments. From the rich aroma of traditional broths to the playful texture of perfectly cooked noodles, every bite is an invitation to indulge in something extraordinary.
+            </p>
+            <button class="bg-[#FFA51F] w-24 rounded-md text-sm h-7 font-normal text-black">Order Now</button>
+        </div>
+    </div>
+
+    <!-- footer -->
+     <div class="flex flex-row justify-between items-center bg-black h-[40px] px-[20px]">
+        <img src="images/hat.png" class="h-[30px]">
+        <p class="text-[12px] text-white pl-[100px]">
+            © 2024 Deli Nudle. All rights reserved. | Privacy Policy | Terms of Service
+        </p>
+        <div class="flex flex-row  items-center w-[180px]">
+            <img src="images/instagram.png" class="h-[25px]">
+            <img src="images/x.png" class="h-[25px]">
+            <img src="images/tiktok.png" class="h-[25px]">
+            <img src="images/linkedin.png" class="h-[25px]">
+        </div>
+     </div>
+
+
     
 </body>
 </html>
